@@ -87,7 +87,7 @@ endfunction
 
 let s:codi_default_interpreters = {
       \ 'python': {
-          \ 'bin': ['env', 'PYTHONSTARTUP=', 'python'],
+          \ 'bin': ['python', '-q'],
           \ 'prompt': '^\(>>>\|\.\.\.\) ',
           \ },
       \ 'javascript': {
